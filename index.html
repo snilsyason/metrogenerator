@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random European Metro Station Selector</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-frame"></div>
+
+    <div class="container">
+        <h1>🚇 Random Metro Station Selector</h1>
+        <p>Click the button to randomly select a metro station from cities across Europe!</p>
+
+        <div class="station-card">
+            <h2 id="stationName">Click the button below!</h2>
+            <p id="stationLocation"></p>
+            <img id="countryFlag" class="hidden" alt="Country Flag">
+        </div>
+
+        <section class="description">
+            <h2>About the Tool</h2>
+            <p>
+                Welcome to the Random European Metro Station Selector! This simple tool randomly picks a metro station from cities across Europe—just for fun. Whether you're a travel enthusiast or just curious, click the button and discover your next metro stop!
+            </p>
+        </section>
+
+        <button id="generateButton">🎲 Generate Station</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
